@@ -1,0 +1,21 @@
+{
+  "name": "okwu",
+  "version": "1.0.0",
+  "description": "Okwu — Live Speech-to-Text Companion for the Deaf & Hard-of-Hearing. Built with Gemma for the Build with Gemma: GDG UNN Hackathon.",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "npm run dev --workspace=client",
+    "dev:server": "npm run dev --workspace=server",
+    "build": "npm run build --workspace=client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": ["gemma", "accessibility", "deaf", "speech-to-text", "offline", "edge-ai"],
+  "license": "MIT"
+}
