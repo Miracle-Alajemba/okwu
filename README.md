@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 👂 Okwu — Live Speech-to-Text Companion
 
 > **Okwu** (Igbo: "word/speech") — An AI-powered live captioning app for the deaf and hard-of-hearing, running fully offline on-device.
@@ -67,3 +68,6 @@ Open `http://localhost:5173` in Chrome and allow microphone access.
 ## 📄 License
 
 MIT
+=======
+# okwu
+>>>>>>> 8221b308219b15c9d016b0d037426adfda3ae133
